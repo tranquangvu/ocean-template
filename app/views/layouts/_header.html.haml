@@ -1,0 +1,25 @@
+.navbar.navbar-inverse.navbar-fixed-top{:role => "navigation"}
+  .container
+    .navbar-header
+      %button.navbar-toggle.collapsed{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      = link_to image_tag("logo.png", alt:"logo_img", class: "logo"), root_path
+    .collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        %li#home.active
+          = link_to "Home", "#home-div"
+        %li#feature
+          = link_to "Features", "#feature-div"
+        %li#why-us
+          = link_to "Why us?", "#why-us-div"
+        %li#describe
+          = link_to "Describe","#describe-div"
+        %li#service
+          = link_to "Service", "#service-div"
+        %li#screenshot
+          = link_to "Screenshots", "#screenshot-div"
+        %li#download
+          = link_to "Download", "#download-div"

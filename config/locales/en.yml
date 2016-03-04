@@ -1,0 +1,234 @@
+﻿# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  home:
+    paragraph1: "Bean of Coffee (B.O.C) là thương hiệu của công ty Cổ phần Hạt Nâu. Chúng tôi hoạt động trong lĩnh vực sản xuất và kinh doanh cà phê. B.O.C được sản xuất từ 100% hạt cà phê sống Việt Nam, sang lọc theo tiêu chuẩn xuất khẩu quốc tế, được thẩm định và đánh giá chất lượng định kì hàng năm."
+    paragraph2: "B.O.C là sản phẩm mang triết lý: “Value for money” – giá trị của sản phẩm được định giá bằng lợi ích đem lại cho khách hàng. Chúng tôi cam kết một sản phẩm tốt đi cùng với sự ổn định chất lượng và dịch vụ sẽ đem đến sự hài lòng cho khách hàng."
+  standards:
+    child_1:
+      header: "Nguyên liệu"
+      content: "<ul> <li> <h4>Buôn Ma Thuột & Đà Lạt</h4> <ul> <li> B.O.C ký biên bản ghi nhớ và hợp tác với công ty CP XNK Golden Bell S để đảm bảo chất lượng cà phê xuất khẩu cho tất cả các sản phẩm của B.O.C </li> <li>B.O.C sử dụng 100% hạt cà phê nhân của những vùng trồng cà phê nổi tiếng nhất Việt Nam: Buôn Ma Thuột và Đà Lạt. Đây là vùng cao nguyên tốt nhất của Việt Nam để trồng cà phê theo tiêu chuẩn quốc tế về cao độ, lượng mưa và dinh dưỡng trong đất.</li> </ul> </li> <li> <h4>Robusta & Arabica</h4> <ul> <li> B.O.C sử dụng 2 loại hạt cà phê cho sản phẩm của mình: Hạt Robusta (cà phê vối) nhiều caffeine và hậu vị tốt hơn trong khi Arabica (cà phê chè) cho ra mùi thơm và vị ngọt cân bằng cho cà phê. <br> * Chúng tôi không sử dụng cà phê excelsa (cà phê mít) do giống cà phê này tại Việt Nam chưa đạt tiêu chuẩn xuất khẩu tại Việt Nam.  </li> <li> <h4>S18/Screen 18</h4> <ul> <li> S18 (Screen 18 hay sàng 18) là tiêu chuẩn về kích cỡ hạt cà phê nhân. Kích cỡ hạt càng lớn, thời gian sinh trưởng của hạt càng chậm, chất lượng và mùi vị càng ngon. S18 hay sceen 18 tương ứng với kích cỡ chiều dài hạt cà phê nhân (chưa rang) trên 7.1mm <br/>*Hạt cà phê nhân B.O.C luôn vượt mức S18, và đạt tiêu chuẩn S20 – tức tiêu chuẩn cao nhất thế giới về kích thước hạt (tương ứng với mức “Very large” hay “AA+” của các nước xuất khẩu cà phê. Hạt S20 có kích thước trên 7.9mm  </li> </ul><li> Tiêu chuẩn hạt cà phê nhân B.O.C luôn đảm bảo về: Độ ẩm <12.5%, tạp chất <0.5%, hạt khác: <1% </li> </ul>"
+    child_2:
+      header: "Bảo quản/đóng gói"
+      content: >
+                <ul>
+                  <li>
+                    <h4>Hút chân không</h4>
+                    <ul>
+                      <li>
+                      Cà phê nguyên chất bắt đầu quá trình oxi hoá ngay sau khi rang và làm nguội. Nhận thức được điều đó, chúng tôi sử dụng phương pháp HÚT CHÂN KHÔNG và đóng gói ngay sau khi hạt cà phê đã sẵn sàng.
+                      </li>
+
+                      <li>B.O.C không sử dụng van một chiều cho bao bì cà phê mặc dù điều đó có thể đem lại nhiều lợi ích cho nhà sản xuất hơn. Van một chiều được gắn sẵn vào bao bì giúp đẩy khí CO2 ra và không cho O2 vào. Nó giúp tiết kiệm chi phí và thời gian đóng gói cho chúng tôi nhưng mang lại nhiều rủi ro cho khách hàng bởi:
+                        <ul>
+                          <li>Van 1 chiều đẩy CO2 ra ngoài đồng thời đẩy cả hương vị vốn có của cà phê nhất là với sản phẩm cà phê đã xay thành bột.</li>
+                          <li>Tỉ lệ van bị hỏng dù chỉ 1-2% nhưng nếu có, sẽ làm hỏng toàn bộ lượng cà phê trong bao, mà chỉ khi mở ra, khách hàng mới biết được.</li>
+                          <li>Không đảm bảo vệ sinh an toàn thực phẩm do van một chiều được sản xuất bằng nguyên liệu giá rẻ và ở Việt Nam, thường được gắn vào bằng phương pháp thủ công.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <h4>Zipper</h4>
+                    <ul>
+                    <li> B.O.C biết rằng khách hàng sẽ mở bao bì nhiều lần trong suốt quá trình sử dụng nên chúng tôi gắn thêm khoá zipper để giúp bạn dễ dàng bảo quản cà phê. Bạn có thể yên tâm giao trách nhiệm cho nhân viên pha chế bởi việc bảo quản giờ đây đã trở nên đơn giản hơn bao giờ hết</li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <h4>Aluminum</h4>
+                    <ul>
+                    <li> Ánh sáng, độ ẩm và nhiệt độ là kẻ thù của cà phê. Bạn có thể phải chuẩn bị ngăn tủ riêng để bảo quản cà phê. Nhưng nếu không có chỗ thích hợp thì bao aluminum 3 lớp của B.O.C hoàn toàn có thể giúp bảo vệ cà phê gần như tuyệt đối</li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <h4>1kg</h4>
+                    <ul>
+                    <li> Chúng tôi đóng gói cà phê tuỳ theo nhu cầu của khách hàng nhưng không bao giờ quá 1kg/bao bởi ngay khi mở bao bì, cà phê bắt đầu bị oxy hoá. Vậy cách tốt nhất là dùng hết cà phê cũ mới mở bao cà phê mới. Bao bì đóng gói trọng lượng càng ít, cà phê càng giữ được lâu.</li>
+                    </ul>
+                  </li>
+                </ul>
+    child_3:
+      header: "Chế biến"
+      content: >
+                <ul>
+                  <li>
+                    <h4>Rang mộc: chỉ cà phê và cà phê</h4>
+                    <ul>
+                      <li>
+                        Với cách rang truyền thống (ở Việt Nam), người rang có thể cho thêm nước mắm, bơ, đường cháy hay rượu để cà phê sánh hơn, đậm hơn nhưng đồng thời cũng phá hỏng thành phần lý hoá của cà phê, biến cà phê thành kẻ thù của các loại máy pha cà phê hiện đại.
+                        <br/>
+                        Tại B.O.C, chúng tôi loại bỏ tất cả các loại phụ gia nói trên. Khách uống sẽ thấy vị cà phê thanh nhẹ nhưng tỉnh táo, mùi cà phê đúng là cà phê và luôn phảng phất trong quán ngay cả khi đã dấu kín túi cà phê của mình. Tất cả các sản phẩm cà phê B.O.C đều có thể dùng với máy xay và máy pha cà phê hiện đại nhất mà không gây ra bất cứ tổn hại nào.
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <h4>Full city & Vienna roast: </h4>
+                    <ul>
+                      <li>
+                        B.O.C rang cà phê theo tiêu chuẩn về thời gian và nhiệt độ phù hợp với từng loại hạt và sản phẩm đóng gói. Tiêu chuẩn rang cà phê của B.O.C là Full city roast và Vienna roast. Tuy nhiên, khách hàng cũng có thể đặt hàng riêng theo yêu cầu.
+                        <br/> *Tiêu chuẩn rang cà phê của B.O.C là giữ cân bằng giữa hương và vị đồng thời bảo toàn lượng caffeine và các thành phần khác có trong hạt cà phê.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+    child_4:
+      header: "Kiểm định chất lượng"
+      content: >
+              <ul>
+                <li>
+                  <h4>Kiểm nghiệm định kì hàng năm </h4>
+                  <ul>
+                    <li>
+                      Hạt cà phê B.O.C được mang đi kiểm định chất lượng theo từng vụ mùa và được cấp chứng nhận kiểm định cà phê bởi trung tâm đo lường chất lượng 3(QUATEST 3) Tp. Hồ Chí Minh.
+                      <br/>
+                      * Khách hàng có thể hoàn toàn yên tâm bởi sản phẩm của chúng tôi luôn đáp ứng đầy đủ tiêu chuẩn về chất lượng cà phê cũng như nguồn gốc xuất xứ của sản phẩm.
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <h4>Các thành phần tốt cho sức khoẻ:</h4>
+                  <ul>
+                    <li>
+                      Kết quả kiểm định cà phê B.O.C cho thấy trên mỗi 100g hạt cà phê B.O.C có đến 200mg magie, 1425mg Kali, 104mg Canxi. Đây là những chất khoáng rất tốt cho sức khoẻ. Đó là lý do tại sao uống cà phê chất lượng cao tốt cho tim mạch và có khả năng chống ung thư
+                      <br/>*Tỉ lệ caffeine trong cà phê B.O.C chiếm đến 2.1% trong sản phẩm Hi-Caff và 1.3% trong sản phẩm Espresso 100%. Đây là tỉ lệ rất cao so với các loại cà phê khác cùng tiêu chuẩn rang, khẳng định chất lượng hạt cà phê B.O.C
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h4>72 giờ</h4>
+                  <ul>
+                    <li>
+                      B.O.C cam kết chỉ bán cà phê tươi (chế biến trong vòng 5 ngày/120giờ hàng để đảm bảo cà phê luôn đạt chất lượng cao nhất.
+                      <br/>
+                      * Cà phê nguyên chất chỉ nên dùng trong vòng 3 tuần sau khi mở bao bì và không quá 5 tháng kể từ khi chế biến để có hương vị ngon nhất.
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+
+  product_and_service:
+    header: "Product"
+    description: "Chúng tôi cung cấp các sản phẩm cho cà phê pha máy, các hệ thống hoặc cửa hàng cà phê, bánh ngọt nhà hàng hoặc hệ thống khách sạn. Tất cả các dòng cà phê đều đạt tiêu chuẩn và độ sạch để dùng với máy pha espresso công nghiệp và gia đình."
+
+    product_1:
+      content: >
+                <h4>Espresso 100%:</h4>
+                <ul>
+                  <li>
+                    Đây là dòng sản phẩm sử dụng 100% hạt cà phê Arabica S20 Đà Lạt.
+                    <ul>
+                      <li>Kích thước: S20</li>
+                      <li>Mùi vị: maple, caramel, nut</li>
+                      <li>Độ chua (Acidity): medium</li>
+                      <li>Độ đậm (Body): full</li>
+                      <li>Thích hợp với gu cân bằng, yêu cầu cao về cả mùi thơm và vị</li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <b>Thích hợp dùng với các loại bánh sau:</b>
+                    <br />
+                    Do có vị cân bằng và hơi pha chút đắng, dòng espresso 100% thích hợp sử dụng kèm với các loại bánh có trái cây hoặc phô mai
+                    <ul>
+                      <li>Blueberry cake/danish</li>
+                      <li>Orange Biscotti</li>
+                      <li>Chocolate Dipped Orange Biscotti</li>
+                      <li>Chocolate Cappuccino Cheesecake</li>
+                     <li>...</li>
+                    </ul>
+                  </li>
+                </ul>
+
+    product_2:
+      content: >
+                <h4>Espresso 80%:</h4>
+                <ul>
+                  <li>
+                    Sử dụng 80% hạt cà phê Arabica Đà Lạt và 20% Robusta. Espresso 80% đem lại hương vị mạnh hơn, đậm đà hơn, thích hợp với người Việt thích gu mạnh nhưng không quá mạnh như cà phê phin
+                    <ul>
+                      <li>Kích thước: S18</li>
+                      <li>Mùi vị: Smoke, caramel, nut</li>
+                      <li>Độ chua (acidity): low</li>
+                      <li>Độ đậm (Body): full</li>
+                      <li>Đây là lựa chọn đúng đắn để pha Caffè Cappuccino hoặc Caffè Latte theo gu truyền thống của Ý bởi vị đắng cao hơn nên khi kết hợp với sữa béo sẽ đem lại hương vị cà phê đúng chất.</li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <b>Thích hợp dùng với các loại bánh sau:</b>
+                    <br />
+                    Do có vị đắng hơn, đậm hơn nên Espresso 80% thích hợp dùng với các loại bánh có chocolate, caramel và các loại bánh mì.
+                    <ul>
+                      <li>Chocolate/coffee muffin</li>
+                      <li>Tiramisu/coffee/caramel cake</li>
+                      <li>Croissant, loaf, bread….</li>
+                      <li>...</li>
+                    </ul>
+                  </li>
+                </ul>
+
+    product_3:
+      content: >
+              <ul>
+                <li>
+                  <h4>B.O.C Hi-caff (nhiều caffeine) </h4>
+                  <p>
+                    Chuyên dùng để pha cà phê phin truyền thống việt nam. “nặng” hơn, đắng hơn, thơm và hậu vị tốt.
+                  </p>
+                  <p>
+                    *HI-CAFF và LOW-CAFF rất thích hợp để pha với máy pha cà phê drip truyền thống (dùng giấy lọc) để tăng thêm độ đậm và mùi vị do cách pha này thường nhạt và kém thơm hơn so với máy espresso.
+                  </p>
+                  <p>
+                    Ngoài 2 dòng chính, B.O.C có thêm dòng cà phê chuyên pha cà phê sữa, cực kì đậm đà và thơm, rất phù hợp pha “nâu đá” hoặc bạc xỉu. khách hàng có thiết bị pha bialetti (moka pot), syphon, french press hay pour-over cone có thể đặt loại cà phê dành riêng cho thiết bị này.
+                  </p>
+                </li>
+              </ul>
+    product_4:
+      content: >
+              <ul>
+                <li>
+                  <h4>B.O.C Low-caff (ít caffeine) </h4>
+                  <br />
+                  Phù hợp với người ít uống cà phê hoặc đang chuyển đổi từ cà phê trộn sang cà phê nguyên chất. Hương vị cân bằng và thơm hơn.
+                  <br />*Hi-Caff và Low-Caff rất thích hợp để pha với máy pha cà phê Drip truyền thống (dùng giấy lọc) để tăng thêm độ đậm và mùi vị do cách pha này thường nhạt và kém thơm hơn so với máy espresso
+                </li>
+                </li>
+              </ul>
+              <p>Ngoài 2 dòng chính, B.O.C có thêm dòng cà phê chuyên pha cà phê sữa, cực kì đậm đà và thơm, rất phù hợp pha “nâu đá” hoặc bạc xỉu. Khách hàng có thiết bị pha Bialetti (Moka pot), Syphon, French Press hay Pour-over cone có thể đặt loại cà phê dành riêng cho thiết bị này.</p>
+    service:
+      content: >
+                <h4>Tư vấn - Đào tạo</h4>
+                <p>Để đảm bảo chất lượng đồ uống, chúng tôi cung cấp dịch vụ đào tạo và giám sát nhân viên pha chế tại địa điểm của khách hàng. Dịch vụ đào tạo cơ bản nằm trong gói hợp đồng cung cấp cà phê. Khách hàng có nhu cầu đào tạo nâng cao, giám sát định kì, lập báo cáo đánh giá nhân viên, vui lòng liên hệ trực tiếp với B.O.C để được tư vấn cụ thể.</p>
+                <h4>Cho thuê máy pha cà phê</h4>
+                <p>
+                  B.O.C hợp tác với các hãng phân phối cà phê nổi tiếng của Ý để mang đến cho khách hàng gói sản phẩm đồng bộ từ thiết bị đến nguyên liệu pha chế. Sử dụng gói dịch vụ này, khách hàng không phải đầu tư mua máy, lắp đặt, sửa chữa. B.O.C sẽ hỗ trợ đồng bộ khách hàng với cam kết về sự ổn định cao nhất.
+                </p>
+                <p>
+                  Khách hàng có thể sử dụng gói dịch vụ thuê mua máy pha cà phê linh hoạt: thuê trọn gói, thuê mua, trả chậm, kết hợp thuê và mua.
+                </p>
+
+

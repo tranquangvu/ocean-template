@@ -1,0 +1,136 @@
+/*
+ *= require_self
+ */
+
+//= require index
+//= require fonts
+//= require form
+//= require animate
+//= require owl.carousel
+//= require owl.theme
+//= require responsive
+
+@import "compass"
+@import "bootstrap-sprockets"
+@import "bootstrap" 
+@import "font-awesome"
+@import "base"
+
+body
+  background: rgb(35, 35, 35)
+  font-family: "Lane", sans-serif
+  font-size: 16px
+  font-weight: 300
+  color: rgb(200, 200, 200)
+  line-height: 28px
+  text-align: center
+  overflow-x: hidden !important
+  margin: 0
+
+.hide-elem
+  opacity: 0
+
+.active-elem
+  opacity: 1
+
+a:hover
+  text-decoration: none
+
+h2
+  margin: 10px auto
+  font-size: 50px
+  line-height: 80px
+
+h3
+  margin: 5px auto
+  font-size: 25px
+  color: $blue
+
+p
+  font-size: 18px
+
+.btn-standard
+  background-color: #005885
+  margin: 20px 0
+  padding: 20px 30px
+  border: none
+  color: $white
+  @include transition(all ease .3s)
+
+.btn-blue
+  @extend .btn-standard
+  background-color: $blue
+
+.white-text
+  color: $white
+
+.dark-text
+  color: $dark
+
+.blue-text
+  color: $blue
+
+.colored-line
+  background: $blue
+  margin: 10px auto
+  width: 165px
+  height: 1px
+
+.colored-line-left
+  @extend .colored-line
+  float: left
+  display: block
+  
+.white-line
+  @extend .colored-line
+  background: $white
+
+.img-container
+  text-align: center
+  vertical-align: middle
+  margin: auto
+  img
+    max-width: 100%
+
+.deep-dark-bg
+  background-color: $black
+
+.deep-light-bg
+  background-color: $light-black
+
+footer
+  .contact-box
+    margin: 20px auto
+    padding: 0 15%
+
+    .contact-form
+      @extend .input-form
+      margin: 10px
+      padding: 0
+
+      .form-control
+        width: 100%
+        padding: 20px
+        background-color: $light-black
+        border-color: $black
+        color: $white
+        &:focus
+          border-color: $blue
+
+  .social-icon
+    padding: 20px 0
+    border-bottom: 1px solid #636363
+    font-size: 30px
+    a
+      color: #636363
+      &:hover
+        color: $blue
+    li
+      display: inline-block
+      margin: 5px 1.5px
+      
+  .coppy-right
+    color: #636363
+    font-family: 'Roboto', sans-serif
+    font-size: 16px
+  

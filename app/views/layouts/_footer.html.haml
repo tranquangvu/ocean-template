@@ -1,0 +1,57 @@
+%footer
+  .container
+    #box-info
+      = link_to "" do
+        .contact-button
+          %i.fa.fa-envelope-o
+      .contact-box
+        .row
+          .col-md-6
+            %form.contact-form{:role => "form"}
+              .form-group
+                = text_field " ", " ", class: "form-control", placeholder: "Your Name"
+          .col-md-6
+            %form.contact-form{:role => "form"}
+              .form-group
+                = email_field " ", " ", class: "form-control", placeholder: "Your Email"
+        .row
+          .col-md-12
+            %form.contact-form{:role => "form"}
+              .form-group
+                = text_field " ", " ", class: "form-control", placeholder: "Subject"
+        .row
+          .col-md-12
+            %form.contact-form{:role => "form"}
+              .form-group
+                = text_area " ", " ", class: "form-control", placeholder: "Message", rows: "8"
+        = submit_tag "Send Message", class: "btn btn-lg btn-default btn-blue"
+
+    = image_tag "logo.png", alt: "logo-img", size: "118x53"
+    
+    %ul.list-unstyled.social-icon
+      %li
+        = link_to "" do
+          %i.social_facebook_square
+      %li
+        = link_to "" do
+          %i.social_twitter_square
+      %li
+        = link_to "" do
+          %i.social_pinterest_square
+      %li
+        = link_to "" do
+          %i.social_googleplus_square
+      %li
+        = link_to "" do
+          %i.social_instagram_square
+      %li
+        = link_to "" do
+          %i.social_dribbble_square
+      %li
+        = link_to "" do
+          %i.social_flickr_square
+    %p.coppy-right
+      &copy; 2014 Ben.Tr - All Rights Reserved &reg;
+
+:javascript
+  createAnimation($("#box-info"), "rotateIn");

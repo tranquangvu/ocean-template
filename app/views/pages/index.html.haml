@@ -1,0 +1,30 @@
+%header#home-div.site-header
+  .cover
+    .container.header-intro
+      = image_tag "logo.png", class: "header-logo"
+      %h1.slogan Present your app in beautiful way with Kane.
+      %h4.info Available on App Store and Play Store
+      = link_to "#", class: "btn btn-lg btn-default btn-standard" do
+        %span.ico.fa.fa-cloud-download 
+        Download App
+
+= render 'pages/feature'
+
+= render 'pages/explanation'
+
+= render 'pages/description'
+
+= render 'pages/video'
+
+= render 'pages/information'
+
+= render 'pages/awesome'
+
+= render 'pages/screenshots'
+
+= render 'pages/packages'
+
+= render 'pages/download'
+
+:javascript
+  createAnimation($(".site-header"), "fadeIn");

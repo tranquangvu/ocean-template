@@ -1,0 +1,267 @@
+@import "compass"
+@import "_base"
+
+.navbar-inverse
+  height: 60px
+  top: -60px
+  background-color: #101010
+  border-color: #101010
+  font-family: 'Roboto', sans-serif
+  font-size: 13px
+  text-transform: uppercase
+  @include transition(all .5s)
+
+  .navbar-nav
+    margin: 2.5px auto
+    & > li > a
+      color: #c8c8c8
+      &:hover, &:focus
+        color: $white
+        background-color: transparent
+    & > .active
+      & > a, & > a:hover, & > a:focus
+        color: $white
+        background-color: transparent
+  &.active
+    top: 0
+
+.logo
+  height: 30px
+  width: 65px
+  margin: 15px
+  float: left
+
+.site-header
+  height: 700px
+  background: asset_url("bg-1.jpg") no-repeat center top
+  background-attachment : fixed
+  background-position: 50% 0px
+  background-size: cover
+
+.cover
+  background: rgba(0, 142, 214, 0.8)
+  height: 100%
+  box-sizing: border-box
+
+.header-intro
+  color: $white
+  padding: 0 15%
+
+  .header-logo
+    margin: 60px auto 50px auto
+
+  .slogan
+    font-size: 60px
+    margin: 20px auto
+    line-height: 80px
+
+  .info
+    font-size: 20px
+    margin: 20px auto
+
+.feature
+  padding: 50px 0
+
+  .section-header
+    padding-bottom: 25px
+    .section-description
+      font-size: 18px
+
+  .feature-left
+    text-align: right
+    .row
+      padding-top: 10%
+      .col-md-2
+        padding-left: 0
+      .col-md-10
+        padding-right: 20px
+
+  .feature-right
+    text-align: left
+    .row
+      padding-top: 10%
+      .col-md-2
+        padding-left: 0
+      .col-md-10
+        padding-left: 20px
+
+.icon-container
+  font-size: 18px
+  width: 60px
+  height: 60px
+  @include border-radius(50%)
+  border: 1px solid $blue
+  color: $blue
+  display: table
+  @include transition(all .25s)
+
+  i
+    vertical-align: middle
+    display: table-cell
+    text-align: center
+
+  &:hover
+    background-color: $blue
+    border: 2px solid $white
+    color: $white
+    -webkit-box-shadow: 0px 0px 0px 2.5px $blue
+    box-shadow: 0px 0px 0px 2.5px $blue
+.video-container
+  height: 0
+  width: 100%
+  overflow: hidden
+  padding-bottom: 60%
+  position: relative
+  iframe
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+
+.contact-button
+  @extend .icon-container
+  width: 80px
+  height: 80px
+  font-size: 30px
+  margin: -40px auto 0 auto
+  border: 2px solid $blue
+  background-color: $light-black
+  @include transition(all ease 0.5s)
+
+  &:hover
+    color: $white
+    border-color: $white
+    background-color: $blue
+
+.app-brief
+  padding: 60px 0
+  text-align: left
+
+  .desc
+    display: blog
+    clear: both
+    margin-top: 50px
+
+#video-div
+  padding: 100px 0
+
+.app-list
+  li
+    margin: 25px auto
+    font-size: 18px
+  i
+    color: $blue
+    margin: 6px 10px 6px auto
+
+.site-information
+  background: asset_url("bg-2.jpg") no-repeat center fixed
+  background-attachment : fixed
+  background-size: cover
+  font-family: 'Roboto', sans-serif
+  color: $white
+  width: 100%
+  height: 530px
+  .container
+    position: relative
+    padding: 50px 10% 10px 10%
+    .image-container
+      width: 80px
+      height: 80px
+      @include border-radius(50%)
+      border: 2px solid $white
+      margin: auto
+      img
+        margin: 2px auto
+    .message
+      font-size: 18px
+      font-style: italic
+      line-height: 28px
+      margin: 30px auto
+    .name
+      font-size: 16px
+      margin: 5px auto
+    .company-info
+      font-size: 12px
+      margin: 5px auto
+      font-weight: 300
+  .owl-theme
+    .owl-controls
+      .owl-page 
+        span
+          background: $white
+
+.single-service-packages
+  padding: 60px 0
+
+  h3
+    margin: 25px
+
+  .section-header
+    padding-bottom: 50px
+    h2
+      margin-bottom: 20px
+      
+    .section-description
+      font-size: 18px
+
+  .service-icon
+    margin: auto
+    font-family: 'ElegantIcons'
+    font-size: 80px
+
+  .app-list
+    li
+      margin: 15px auto
+
+  .single-package
+    padding: 10px 0
+    background-color: $black
+
+    .price
+      font-size: 50px
+      color: $white
+      background-color: $dark
+      padding: 15px 0
+
+      .sign
+        vertical-align: super
+        font-size: 20px
+
+      .month
+        font-size: 16px
+
+    .price-blue
+      @extend .price
+      background-color: $blue
+
+.screen-shots
+  @extend .single-service-packages
+  width: 100%
+  height: 800px
+  padding: 30px 0 50px 0
+
+  .shot
+    border: 10px solid $light-black
+    width: 90%
+    @include border-radius(10px)
+    img
+      max-width: 30%
+
+  .owl-theme
+    .owl-controls
+      .owl-page 
+        span
+          background: $blue
+
+.download
+  background: asset_url("bg-3.jpg") no-repeat center fixed
+  background-attachment : fixed
+  background-size: cover
+  color: $white
+  width: 100%
+  height: 700px
+  .btn-standard
+    width: 100%
+  .head, .sub
+    margin-top: 80px

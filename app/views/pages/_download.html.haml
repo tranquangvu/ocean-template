@@ -1,0 +1,36 @@
+#download-div.download
+  .cover
+    .container
+      %h2#header.head Download the app on
+      #app-play-store
+        .row
+          .col-md-3
+          .col-md-3
+            = link_to "#", class: "btn btn-lg btn-default btn-standard" do
+              %span.ico.fa.fa-apple
+              App Store
+          .col-md-3
+            = link_to "#", class: "btn btn-lg btn-default btn-standard" do
+              %span.ico.fa.fa-android
+              Play Store
+          .col-md-3
+      %h2#subscribe.sub Subscribe Now!
+      %form.input-form{:role => "form"}
+        .row
+          .col-md-2
+          .col-md-5
+            #email
+              = email_field " ", " ", placeholder: "Your Email", class: "form-control"
+          .col-md-3
+            #subcribe-btn
+              = button_tag type: "submit", class: "btn btn-lg btn-default btn-standard" do
+                %span.ico.fa.fa-paper-plane
+                Subscribe
+          .col-md-2
+
+:javascript
+  createAnimation($("#header"), "fadeInLeft");
+  createAnimation($("#app-play-store"), "fadeInRight");
+  createAnimation($("#subscribe"), "fadeInLeft");
+  createAnimation($("#email"), "fadeInRight");
+  createAnimation($("#subcribe-btn"), "fadeInLeft");

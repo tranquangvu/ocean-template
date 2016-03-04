@@ -1,0 +1,61 @@
+#feature-div.feature.deep-light-bg
+  .container
+    #feature-section.section-header
+      %h2.white-text Amazing Features
+      .colored-line
+      .section-description List your app features and all the details Lorem ipsum dolor kadr
+      .colored-line
+    .row
+      #feature-left.col-md-4.feature-left
+        .row
+          .col-md-10
+            %h3 Responsive Design
+            %p Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+          .col-md-2
+            .icon-container
+              %i.icon_map_alt
+        .row
+          .col-md-10
+            %h3 Bootstrap 3.1
+            %p Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+          .col-md-2
+            .icon-container
+              %i.icon_gift_alt
+        .row
+          .col-md-10
+            %h3 Cross-Browser Support
+            %p Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+          .col-md-2
+            .icon-container
+              %i.icon_tablet
+      #feature-center.col-md-4
+        .img-container
+          = image_tag 'single-iphone.png', alt: "single-iphone", size: "250x525"
+      #feature-right.col-md-4.feature-right
+        .row
+          .col-md-2
+            .icon-container
+              %i.icon_genius
+          .col-md-10
+            %h3 360+ Icon Fonts
+            %p Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+        .row
+          .col-md-2
+            .icon-container
+              %i.icon_lightbulb_alt
+          .col-md-10
+            %h3 Creative Design
+            %p Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+        .row
+          .col-md-2
+            .icon-container
+              %i.icon_ribbon_alt
+          .col-md-10
+            %h3 More Features
+            %p Lorem ipsum dolor sit amet, ed do eiusmod tempor incididunt ut labore et dolore magna.
+            
+:javascript
+    createAnimation($("#feature-section"), "fadeInUp");
+    createAnimation($("#feature-left"), "fadeInLeft");
+    createAnimation($("#feature-right"), "fadeInRight");
+    createAnimation($("#feature-center"), "zoomIn");

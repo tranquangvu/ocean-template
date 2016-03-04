@@ -1,0 +1,144 @@
+@import "compass";
+
+@media screen and (max-width: 1200px) {
+  .video-container {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #feature-left .row, #feature-right .row {
+    padding-top: 0;
+    padding-bottom: 20px;
+  }
+
+  #feature-left .icon-container, #feature-right .icon-container{
+    margin: 0 auto;
+  }
+
+  #feature-center .img-container {
+    padding: 10px 0 30px 0;
+  }
+
+  .row {
+    text-align: center;
+  }
+
+  .colored-line-left {
+    float: none;
+  }
+
+  .header-intro {
+    padding: 0;
+  }
+
+  .site-information .container {
+    padding: 50px 0 10px 0
+  }
+
+  .single-package {
+    margin-bottom: 20px;
+  }
+
+  .input-form input[type="email"] {
+    width: 70%;
+  }
+
+  .download .sub, .download .head {
+    margin-top: 30px
+  }
+
+  .download #subcribe-btn .btn-standard {
+    margin: auto 0
+  }
+}
+
+@media (min-width: 640px) and (max-width: 783px) {
+  .screen-shots .shot {
+    width: 80%;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .site-header .slogan {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-collapse {
+    background-color: rgba(16, 16, 16, 0.9);
+    padding: 0;
+    max-height: 300px !important;
+  }
+
+  .navbar-collapse ul li a {
+     font-weight: bold;
+  }
+
+  .navbar-collapse ul li {
+    @include border-radius(30px);
+    @include transition(all .3s);
+  }
+
+  .navbar-collapse ul li:hover {
+    background-color: #ff5630;
+  }
+
+  .navbar-collapse ul li:hover > a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 494px) {
+   .screen-shots .shot {
+    width: 60%;
+  }  
+}
+
+@media screen and (max-width: 480px) {
+  .site-header .slogan {
+    font-size: 40px;
+    line-height: 60px
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3, .site-header .info{
+    font-size: 18px;
+  }
+
+  body, p, .message, section-description, .app-list li, .feature .section-description,
+  .single-service-packages .section-description, .btn-lg {
+    font-size: 16px !important;
+  }
+
+  .single-service-packages .single-package .price, .single-service-packages .single-package .price-blue {
+    font-size: 30px !important;
+  }
+
+  .screen-shots .shot {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  h2 {
+    line-height: 30px;
+  }
+  .site-information {
+    height: 600px;
+  }
+
+  .screen-shots .shot {
+    width: 80%;
+  }
+  .download .sub, .download .head {
+    margin-top: 70px
+  }
+}

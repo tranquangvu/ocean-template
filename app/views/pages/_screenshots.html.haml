@@ -1,0 +1,25 @@
+#screenshot-div.screen-shots.deep-dark-bg
+  .container
+    #screen-section.section-header
+      %h2.white-text Screenshots
+      .colored-line
+      .section-description List your app features and all the details Lorem ipsum dolor kadr
+      .colored-line
+    #screen-shots.owl-carousel.owl-theme
+      = image_tag 'shot-1.jpg', alt: "shot-1", class: "shot"
+      = image_tag 'shot-2.jpg', alt: "shot-2", class: "shot"
+      = image_tag 'shot-3.jpg', alt: "shot-3", class: "shot"
+      = image_tag 'shot-4.jpg', alt: "shot-4", class: "shot"
+      = image_tag 'shot-1.jpg', alt: "shot-1", class: "shot"
+      = image_tag 'shot-2.jpg', alt: "shot-2", class: "shot"
+      = image_tag 'shot-3.jpg', alt: "shot-3", class: "shot"
+      = image_tag 'shot-4.jpg', alt: "shot-4", class: "shot"
+      
+:javascript
+  $("#screen-shots").owlCarousel({
+    items: 4,
+    autoPlay: true
+  });
+
+  createAnimation($("#screen-shots"), "zoomIn");
+  createAnimation($("#screen-section"), "zoomIn");

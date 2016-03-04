@@ -1,0 +1,27 @@
+#why-us-div.app-brief.deep-dark-bg
+  .container
+    .row
+      #expl-left.col-md-6
+        .img-container
+          = image_tag "2-iphone-left.png", alt: "2-iphone-left", size: "350x495"
+      #expl-right.col-md-6
+        %h2.white-text Explain why it's best
+        .colored-line-left
+        %p.desc Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        %ul.list-unstyled.app-list
+          %li
+            %i.icon_lock_alt
+            Reliable and Secure Platform
+          %li
+            %i.icon_check_alt2
+            Everything is perfectly orgainized for future
+          %li
+            %i.icon_paperclip
+            Attach large file easily
+          %li
+            %i.icon_adjust-vert
+            Tons of features and easy to use and customize
+            
+:javascript
+  createAnimation($("#expl-left"), "fadeInRight");
+  createAnimation($("#expl-right"), "fadeInLeft");
