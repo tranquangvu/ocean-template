@@ -14,7 +14,7 @@ $(document).on('click', 'a[href^="#"]', function(e) {
   $('body, html').animate({scrollTop: id.offset().top}, 1000);
 });
 
-function createAnimation(element, animate) { 
+function createAnimation(element, animate) {
   element.addClass("hide-elem").viewportChecker({
     classToAdd: ('active-elem animated ').concat(animate),
     offset: 100
