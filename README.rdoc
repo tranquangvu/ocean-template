@@ -14,3 +14,6 @@ Simple project for UI coding practice
     bundle install
     ```
 - Start server: `rails s`
+
+== Preview
+![Priview](https://github.com/tranquangvu/ocean-template/blob/master/public/preview.png "Preview Image")
